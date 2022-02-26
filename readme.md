@@ -13,7 +13,7 @@ I used Python to build my whole project and stored data using Postgres. My whole
 ![](images/workflow.JPG)
 
 My work has been summarized as below:
-1. First, I create account on Openweather, it tooks a while till my account got activated.
+1. First, I created account on Openweather, it tooks a while till my account got activated.
 2. I found the API to query the 5 last days taking only co-ordinates. I wanted some conveniance so I created a module that taked the popular cities name and return the co-ordinates. For this I used geopy library. I save those values for later use when I run the API
 3. I then constructed a list of timestamp so I loop over to query several days calls as the API can return only 1 day hourly data
 4. Now my data is ready so I used them to construct the APIs and the response content got stored in the staging_data folder
