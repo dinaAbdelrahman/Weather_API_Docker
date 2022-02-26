@@ -1,0 +1,8 @@
+python=3.6.2
+pandas
+psycopg2
+requests
+pytz
+geopy
+Nominatim
+ciso8601 

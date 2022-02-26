@@ -1,0 +1,4 @@
+FROM postgres:latest
+ENV POSTGRES_PASSWORD=dina123
+ENV POSTGRES_USER=dina
+ENV POSTGRES_DB=weather_processing

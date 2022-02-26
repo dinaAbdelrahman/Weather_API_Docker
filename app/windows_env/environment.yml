@@ -1,0 +1,11 @@
+name: weather_api_test
+dependencies:
+- python=3.6.2
+- pandas
+- psycopg2
+- requests
+- pytz
+- pip:
+  - geopy
+  - Nominatim
+  - ciso8601 

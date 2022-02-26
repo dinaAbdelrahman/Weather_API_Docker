@@ -1,0 +1,3 @@
+conda env create -f e:\Projects\API_testing\environment.yml
+conda activate weather_api_2
+conda env list
