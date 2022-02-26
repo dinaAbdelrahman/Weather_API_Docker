@@ -19,3 +19,26 @@ My work has been summarized as below:
 4. Now my data is ready so I used them to construct the APIs and the response content got stored in the staging_data folder
 5. I then process each JSON and store the information I found needed later in the database. I faced one issue that the timezone where not storing properly which would affect my calculation later so I have altered the whole DB time zone to be UTC
 6. Last step is to construct the 2 required dataset, I developed the queries first and tested on the PgAdmin and then automate the run within the main program script.
+
+
+The folder Structure:
+
+![](images/folder_structure.JPG)
+
+# Project Output
+
+2 Datasets were required as part of the project delivery
+
+### Dataset 1
+
+A dataset containing the location, date and temperature of the highest temperatures reported by location and month.
+The dataset was executed as part of the main program and can be availble in the dataset1_data directory
+
+![](images/dataset1.JPG)
+
+### Dataset 2
+
+A dataset containing the average temperature, min temperature, location of min temperature, and location of max temperature per day.
+The dataset was executed as part of the main program and can be availble in the dataset2_data directory
+
+![](images/dataset2.JPG)
