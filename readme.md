@@ -10,7 +10,7 @@ The data source is from https://openweathermap.org/
 
 I used Python to build my whole project and stored data using Postgres. My whole project was built on windows so anyone would like to use the docker image should still use windows otherwise reading the files/directories may not work
 
-![](images/workflow.png)
+![](images/workflow.JPG)
 
 My work has been summarized as below:
 1. First, I create account on Openweather, it tooks a while till my account got activated.
