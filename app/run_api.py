@@ -18,7 +18,7 @@ def get_json(num_days,api_key,api_url,cur,conn,staging_path):
 
     #read the query output into a new dataframe
     df_cities = DataFrame(cur.fetchall())
-    print("Getting cities data from datase")
+    print("Getting cities data from database")
     #print(df_cities.head())
 
     #Calculating the timestamp to use it in the API call
