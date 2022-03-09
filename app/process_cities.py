@@ -13,6 +13,7 @@ from cursors_operations import insert_postgres_table
 def process_cities(relative_url,cur,conn):
     """
     input to the function is the relative URL of the CSV file having the desired cities
+    I then process the cities using geopy librabry to get their co-ordinate which will be used later in the API calls
     
     """
   
